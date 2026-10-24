@@ -14,4 +14,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="smarthome-frontend\**" />
+    <Content Remove="smarthome-frontend\**" />
+    <None Remove="smarthome-frontend\**" />
+  </ItemGroup>
+  
 </Project>
